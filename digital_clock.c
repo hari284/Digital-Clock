@@ -73,10 +73,10 @@ void main()
 				for(char j=0;j<6;j++)
 				{
 				     for(char i=0;i<=9;i++)
-					 { _delay_ms(1000);
+					 { 
 					   lcd_command(0xcb);
 					   lcd_data(i+48);
-					   //_delay_ms(1);
+					   _delay_ms(1000);
 	  
 					 }
 				    lcd_command(0xca);
